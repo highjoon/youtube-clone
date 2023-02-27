@@ -14,6 +14,8 @@
     "react",
     "react-hooks",
     "jsx-a11y",
+    "prettier",
+    "@emotion",
     "@typescript-eslint",
     "import",
     "simple-import-sort"
@@ -51,7 +53,8 @@
         "endOfLine": "auto",
         "useTabs": false
       }
-    ]
+    ],
+    "@emotion/jsx-import": "error"
   },
   "env": {
     "es6": true,
