@@ -2,10 +2,12 @@ import legacy from '@vitejs/plugin-legacy';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'vite';
+import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
   plugins: [
     legacy(),
+    svgr(),
     react({
       jsxImportSource: '@emotion/react',
       babel: {
