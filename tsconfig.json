@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "CommonJS",
     "lib": ["dom", "dom.iterable", "esnext", "scripthost"],
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
@@ -28,5 +28,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "jest.setup.ts", "vite.config.ts", ".storybook/*"]
+  "include": ["src", "jest.setup.ts", "vite.config.ts", ".storybook/*", "./**/*.ts"]
 }

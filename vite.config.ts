@@ -1,6 +1,6 @@
 import legacy from '@vitejs/plugin-legacy';
 import react from '@vitejs/plugin-react';
-import { fileURLToPath } from 'url';
+import * as path from 'path';
 import { defineConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
 
@@ -24,9 +24,7 @@ export default defineConfig({
     }),
   ],
   resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-    },
+    alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
   },
   server: {
     proxy: {
