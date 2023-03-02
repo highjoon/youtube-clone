@@ -4,7 +4,7 @@ import React from 'react';
 
 import * as icons from '@/assets/icons';
 
-type IconType = keyof typeof icons;
+export type IconType = keyof typeof icons;
 export const iconTypes: IconType[] = Object.keys(icons) as any[];
 
 export interface IconProps {
@@ -14,7 +14,7 @@ export interface IconProps {
   className?: string;
 }
 
-const Icon = ({ icon, color, size, className }: IconProps) => {
+const Icon = ({ icon, color, size = 24, className }: IconProps) => {
   // eslint-disable-next-line import/namespace
   const Icon = icons[icon];
 

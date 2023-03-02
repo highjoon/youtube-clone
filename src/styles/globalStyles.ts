@@ -21,6 +21,12 @@ const GlobalStyles = css`
     --color-red-light3: #ff9797;
     --color-red-light4: #ffcaca;
   }
+
+  *,
+  html,
+  body {
+    box-sizing: border-box;
+  }
 `;
 
 export default GlobalStyles;
