@@ -7,7 +7,11 @@ import svgr from 'vite-plugin-svgr';
 export default defineConfig({
   plugins: [
     legacy(),
-    svgr(),
+    svgr({
+      svgrOptions: {
+        icon: true,
+      },
+    }),
     react({
       jsxImportSource: '@emotion/react',
       babel: {

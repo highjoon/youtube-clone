@@ -1,10 +1,10 @@
 {
-  "name": "youtube",
+  "name": "youtube-clone",
   "version": "0.0.0",
   "private": true,
   "author": {
     "name": "highJoon",
-    "url": "https://github.com/highjoon/youtube"
+    "url": "https://github.com/highjoon/youtube-clone"
   },
   "module": "esnext",
   "scripts": {

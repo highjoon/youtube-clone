@@ -54,7 +54,7 @@
         "useTabs": false
       }
     ],
-    "@emotion/jsx-import": "error"
+    "@emotion/jsx-import": 0
   },
   "env": {
     "es6": true,
