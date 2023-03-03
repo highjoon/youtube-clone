@@ -9,20 +9,20 @@ interface Props {
   icon: 'Home' | 'TrendsDefault' | 'Subscriptions';
 }
 
-const Sidebar = ({ className, icon }: Props) => {
+const Sidebar: React.FC<Props> = ({ className, icon }) => {
   const [isHovered, setIshovered] = useState<boolean>(false);
 
   const iconColor = isHovered ? 'var(--color-primary-red)' : 'var(--color-black-dark2)';
 
   return (
-    <Styled.SidebarWrapper
+    <Styled.Wrapper
       className={className}
       onMouseEnter={() => setIshovered(true)}
       onMouseLeave={() => setIshovered(false)}
     >
       <Icon icon={icon} color={iconColor} />
       <Styled.Title>{icon}</Styled.Title>
-    </Styled.SidebarWrapper>
+    </Styled.Wrapper>
   );
 };
 

@@ -3,9 +3,10 @@
 module.exports = {
   testEnvironment: 'jsdom',
   roots: ['<rootDir>/src/'],
-  testMatch: ['**/*.spec.ts?(x)'],
+  testMatch: ['**/*.test.ts?(x)'],
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
+    '^.+\\.svg$': 'jest-transformer-svg',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   coverageDirectory: '<rootDir>/coverage/',
@@ -16,11 +17,10 @@ module.exports = {
     '!**/*.d.ts',
   ],
   moduleNameMapper: {
-    '^.+\\.module\\.(css|sass|scss|less)$': 'identity-obj-proxy',
-    '^.+\\.(css|sass|scss|less)$': '<rootDir>/__mocks__/styleMock.js',
     '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg|ttf|woff|woff2)$': `<rootDir>/__mocks__/fileMock.js`,
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   verbose: true,
   testTimeout: 30000,
+  snapshotSerializers: ['@emotion/jest/serializer'],
 };
