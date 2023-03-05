@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon 정상적으로 렌더링됩니다. 1`] = `
+<DocumentFragment>
+  <icon-mock
+    classname="css-uveo7x-Icon"
+    data-testid="icon"
+  />
+</DocumentFragment>
+`;

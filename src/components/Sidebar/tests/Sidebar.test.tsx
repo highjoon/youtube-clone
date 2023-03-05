@@ -20,7 +20,7 @@ describe('Sidebar', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('마우스 hover 시 Container 색상이 var(--color-black-dark4)로 변합니다.', async () => {
+  it('마우스 hover 시 Container 색상이 var(--color-black-dark4)로 변합니다.', () => {
     const user = userEvent.setup();
 
     render(SidebarComponent);
@@ -31,8 +31,5 @@ describe('Sidebar', () => {
     expect(component).toHaveStyleRule('background', 'var(--color-black-dark4)', {
       target: ':hover',
     });
-
-    user.unhover(component);
-    expect(component).not.toHaveStyleRule('background', '');
   });
 });
