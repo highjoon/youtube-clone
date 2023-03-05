@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar 정상적으로 렌더링됩니다. 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  width: 240px;
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 11px 24px;
+  gap: 23px;
+  cursor: pointer;
+}
+
+.emotion-0:hover {
+  background: var(--color-black-dark4);
+}
+
+.emotion-0:hover span {
+  font-weight: 600;
+}
+
+.emotion-1 {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-primary-black);
+}
+
+<div
+    class="emotion-0"
+    data-testid="container"
+  >
+    <icon-mock
+      classname="css-js4mbw-Icon"
+      data-testid="icon"
+    />
+    <span
+      class="emotion-1"
+      data-testid="title"
+    >
+      Home
+    </span>
+  </div>
+</DocumentFragment>
+`;
