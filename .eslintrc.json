@@ -54,7 +54,9 @@
         "useTabs": false
       }
     ],
-    "@emotion/jsx-import": 0
+    "@emotion/jsx-import": 0,
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "off"
   },
   "env": {
     "es6": true,

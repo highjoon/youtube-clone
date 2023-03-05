@@ -15,11 +15,13 @@ module.exports = {
     '!**/__mocks__/**',
     '!**/node_modules/**',
     '!**/*.d.ts',
+    '!**/*.stories.tsx',
   ],
   moduleNameMapper: {
     '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg|ttf|woff|woff2)$': `<rootDir>/__mocks__/fileMock.js`,
     '^@/(.*)$': '<rootDir>/src/$1',
   },
+  modulePathIgnorePatterns: ['<rootDir>/src/styles', '<rootDir>/src/assets'],
   verbose: true,
   testTimeout: 30000,
   snapshotSerializers: ['@emotion/jest/serializer'],

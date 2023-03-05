@@ -20,6 +20,7 @@ const Icon = ({ icon, color, size = 24, className }: IconProps) => {
 
   return (
     <Icon
+      data-testid={'icon'}
       className={className}
       css={{
         fill: color || 'currentcolor',
