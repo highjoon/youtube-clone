@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile 정상적으로 렌더링됩니다. 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 240px;
+  padding: 8px 24px;
+  gap: 23px;
+}
+
+.emotion-1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -webkit-background-size: contain;
+  background-size: contain;
+  -webkit-background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://avatars.githubusercontent.com/u/63948484?v=4);
+}
+
+.emotion-2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary-black);
+}
+
+<div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    />
+    <span
+      class="emotion-2"
+    >
+      HighJoon
+    </span>
+  </div>
+</DocumentFragment>
+`;
