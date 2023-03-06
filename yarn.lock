@@ -5940,6 +5940,11 @@ emotion-normalize@^11.0.1:
   resolved "https://registry.npmjs.org/emotion-normalize/-/emotion-normalize-11.0.1.tgz#266e6b93ef9b3ff972a9615d83ab0a7483ac7af9"
   integrity sha512-68+TdnChNbELbOVtA2oOdSc9W40KPH4dKYdXgk2KfkuGu+qK7glVVO4h5Q+hoAf2JqJfTV55wPeBMPuun+3fVA==
 
+emotion-reset@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/emotion-reset/-/emotion-reset-3.0.1.tgz#1445e66bab7e8fd9975ce0d8cd3324589981f0a6"
+  integrity sha512-v6scW83qSu+wtxg7lX1s0+/2U4EAAGFxDQMkvXE10jhKtyuXCzy3/su5/MU9ZjXeNv6ZjxZH51WktrKosKUy9g==
+
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"

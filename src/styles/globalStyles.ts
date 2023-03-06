@@ -1,7 +1,9 @@
 import { css } from '@emotion/react';
 import normalize from 'emotion-normalize';
+import reset from 'emotion-reset';
 
 const GlobalStyles = css`
+  ${reset}
   ${normalize}
 
   :root {
@@ -25,6 +27,7 @@ const GlobalStyles = css`
   *,
   html,
   body {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
   }
 `;
