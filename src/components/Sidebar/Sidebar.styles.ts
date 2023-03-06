@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 40px;
   display: flex;
   align-items: center;
-  padding: 11px 24px;
+  padding: 8px 24px;
   gap: 23px;
   cursor: pointer;
 

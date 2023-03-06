@@ -13,7 +13,7 @@ exports[`Sidebar 정상적으로 렌더링됩니다. 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 11px 24px;
+  padding: 8px 24px;
   gap: 23px;
   cursor: pointer;
 }

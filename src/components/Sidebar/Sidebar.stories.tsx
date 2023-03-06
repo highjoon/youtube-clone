@@ -2,7 +2,7 @@ import Sidebar from './';
 
 export default {
   component: Sidebar,
-  title: 'components/Sidebar',
+  title: 'Components/Sidebar',
 };
 
 export const HomeSidebar = () => (
