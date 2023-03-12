@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoCard 정상적으로 렌더링됩니다. 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 276px;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.emotion-1 {
+  position: relative;
+}
+
+.emotion-2 {
+  height: 153px;
+  background-image: url(https://blog.snappa.com/wp-content/uploads/2020/01/BestYoutubeThumbnailSize_Blogpost.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.emotion-3 {
+  position: absolute;
+  right: 5px;
+  bottom: 5.5px;
+  width: 42px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1px 4px;
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-white);
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
+}
+
+.emotion-5 {
+  display: inline;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.emotion-7 {
+  font-size: 14px;
+  color: var(--color-primary-black);
+  margin-bottom: 5px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.emotion-8 {
+  display: block;
+  font-size: 14px;
+  color: var(--color-black-dark2);
+}
+
+.emotion-9 {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-black-dark2);
+}
+
+<li
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      />
+      <div
+        class="emotion-3"
+      >
+        4:13
+      </div>
+    </div>
+    <div
+      class="emotion-4"
+    >
+      <img
+        class="emotion-5"
+        src="https://avatars.githubusercontent.com/u/63948484?v=4"
+      />
+      <div
+        class="emotion-6"
+      >
+        <span
+          class="emotion-7"
+        >
+           The Dark Knight Rises (2012) - Batman's Sacrifice Scene (9/10) Batman's Sacrifice Scene
+          (9/10)
+        </span>
+        <span
+          class="emotion-8"
+        >
+          Movieclips Trailers
+        </span>
+        <span
+          class="emotion-9"
+        >
+          60M views •
+        </span>
+        <span
+          class="emotion-9"
+        >
+           1 month ago
+        </span>
+      </div>
+    </div>
+  </li>
+</DocumentFragment>
+`;
