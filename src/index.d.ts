@@ -6,3 +6,15 @@ declare module '*.svg' {
   const src: string;
   export default src;
 }
+
+interface Props {
+  className?: string;
+}
+
+interface PropsWithStringChildren extends Props {
+  children: string;
+}
+
+interface PropsWithReactNodeChildren extends Props {
+  children: React.ReactNode;
+}

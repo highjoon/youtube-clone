@@ -6,19 +6,8 @@ import * as Styled from './Sidebar.styles';
 
 type Icon = 'Home' | 'TrendsDefault' | 'Subscriptions';
 
-interface Props {
-  className?: string;
-}
-
-interface ContainerProps extends Props {
-  children: React.ReactNode;
-}
 interface MenuIconProps extends Props {
   icon: Icon;
-}
-
-interface TitleProps extends Props {
-  children: string;
 }
 
 interface SidebarContext extends Props {
@@ -31,7 +20,7 @@ const initialState: SidebarContext = {
 
 export const SidebarContext: React.Context<SidebarContext> = createContext(initialState);
 
-export const Container = ({ children }: ContainerProps) => {
+export const Container = ({ className, children }: PropsWithReactNodeChildren) => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const handleMouseEnter = () => {
@@ -45,6 +34,7 @@ export const Container = ({ children }: ContainerProps) => {
   return (
     <SidebarContext.Provider value={{ isHovered }}>
       <Styled.Container
+        className={className}
         data-testid="container"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -63,7 +53,7 @@ export const MenuIcon = ({ className, icon }: MenuIconProps) => {
   return <Icon data-testid="icon" className={className} icon={icon} color={iconColor} />;
 };
 
-export const Title = ({ className, children }: TitleProps) => {
+export const Title = ({ className, children }: PropsWithStringChildren) => {
   return (
     <Styled.Title data-testid="title" className={className}>
       {children}
